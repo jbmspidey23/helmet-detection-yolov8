@@ -11,7 +11,7 @@ def main():
     parser = argparse.ArgumentParser(description="Helmet Detection Inference")
     parser.add_argument("--source", type=str, default="0",
                         help="Image/video path, or '0' for webcam")
-    parser.add_argument("--model", type=str, default=r"C:\Users\jebin\.gemini\antigravity\scratch\HelmetDetection\runs\detect\runs\train\helmet_detect\weights\best.pt",
+    parser.add_argument("--model", type=str, default="best.pt",
                         help="Path to trained model weights")
     parser.add_argument("--conf", type=float, default=0.5,
                         help="Confidence threshold (0-1)")
