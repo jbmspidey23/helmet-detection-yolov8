@@ -1,0 +1,25 @@
+# Virtual environment
+.venv/
+venv/
+
+# Datasets (too large for GitHub)
+datasets/
+
+# Training runs and logs
+runs/
+
+# Pretrained base models (not our trained model)
+yolov8n.pt
+yolo26n.pt
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/

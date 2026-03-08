@@ -1,0 +1,9 @@
+train: datasets/helmet_data/train/images
+val: datasets/helmet_data/valid/images
+test: datasets/helmet_data/test/images
+
+nc: 2
+
+names:
+  0: helmet
+  1: no-helmet
