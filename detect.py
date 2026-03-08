@@ -24,13 +24,14 @@ def main():
     # Load the trained model
     model = YOLO(args.model)
 
+    # Let YOLO automatically choose the device (GPU if available, else CPU)
+    # This prevents errors on machines without an NVIDIA GPU.
     # Run detection
     results = model.predict(
         source=args.source,
         conf=args.conf,
         save=args.save,
         show=args.show,
-        device=0,
         stream=True,  # Stream results for video/webcam
     )
 
