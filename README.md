@@ -69,4 +69,7 @@ Classes: `helmet`, `no-helmet`
 
 ## Team
 
+- Gowri Manoj
+- Jebin Boby Mathew
+
 Built for competition submission.
